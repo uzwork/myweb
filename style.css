@@ -116,3 +116,34 @@ img {
         height: 250px;
     }
 }
+
+@media only all and (max-width:400px) {
+    body {
+        height: 200vh;
+    }
+    .box_1 {
+        width: 200px;
+        height: 750px;
+    }
+    h1 {
+        font-size: 20px;
+        color: red;
+        font-family: sans-serif;
+    }
+    p {
+        margin: 30px 0;
+        font-size: 20px;
+    }
+    button {
+        padding: 10px 50px;
+        font-size: 15px;
+    }
+    .box_2 {
+        width: 300px;
+        height: 1050px;
+    }
+    .box_2 div img {
+        width: 300px;
+        height: 250px;
+    }
+}
